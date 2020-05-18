@@ -72,8 +72,8 @@ print  """\033[1;91m=======================================
 \033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/fahadkhan9131
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "fahad"
-CorrectPassword = "fahad"
+CorrectUsername = "drhack"
+CorrectPassword = "drhack"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
