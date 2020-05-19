@@ -403,11 +403,11 @@ def pilih_super():
 														                                                oks.append(user+pass9)
 													                                                else:
 														                                                if 'www.facebook.com' in q["error_msg"]:
-															                                        print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass9
-															                                        cek = open("out/checkpoint.txt", "a")
-															                                        cek.write(user+"|"+pass9+"\n")
-															                                        cek.close()
-															                                        cekpoint.append(user+pass9)	
+															                                                print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass9
+															                                                cek = open("out/checkpoint.txt", "a")
+															                                                cek.write(user+"|"+pass9+"\n")
+															                                                cek.close()
+															                                                cekpoint.append(user+pass9)	
 		except:
 			pass
 		
