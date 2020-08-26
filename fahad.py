@@ -349,10 +349,7 @@ def pilih_super():
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
 													cekpoint.append(user+pass5)
-												
-														
-                                                                                                                                               
-                                                                                                                                                                               
+			                                                                                                                                                             
 		except:
 			pass
 		
